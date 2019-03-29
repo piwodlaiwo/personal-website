@@ -40,8 +40,8 @@
 
         {% include projects.html %}
 
-        {% if site.topics %}
-#          {% include interests.html %}
+        {% if site.topics == "stopthis" %}
+          {% include interests.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}
